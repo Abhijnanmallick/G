@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+.back{
+    height:100vh;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(255, 255, 255),pink,pink);
+}
+.gifs{
+    margin-top:20rem;
+}
+.text{
+    
+    font-size:4rem;
+    font-weight: bolder;
+    font-family:cursive;
+    color:whitesmoke;
+    animation-name: light;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes light{
+    0% {color:pink;}
+    10% {color:white}
+    20% {color:pink}
+    30% {color:white}
+    40% {color:pink;}
+    50% {color:white}
+    60% {color:pink;}
+    70% {color:white}
+    80% {color:pink;}
+    90% {color:white}
+    100% {color:pink}
+}
